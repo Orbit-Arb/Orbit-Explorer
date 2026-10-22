@@ -1,0 +1,28 @@
+{
+  "_example": "Synthetic demonstration only. All prices, pool identifiers, allocations and timings are fictional. This is not an executable route.",
+  "inputMint": "So11111111111111111111111111111111111111112",
+  "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+  "inAmount": "1000000000",
+  "outAmount": "150000000",
+  "otherAmountThreshold": "149250000",
+  "swapMode": "ExactIn",
+  "slippageBps": 50,
+  "priceImpactPct": "0.02",
+  "contextSlot": 123456789,
+  "timeTaken": 0.012,
+  "routePlan": [
+    {
+      "swapInfo": {
+        "ammKey": "11111111111111111111111111111112",
+        "label": "Orca",
+        "inputMint": "So11111111111111111111111111111111111111112",
+        "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "inAmount": "1000000000",
+        "outAmount": "150000000",
+        "feeAmount": "3000000",
+        "feeMint": "So11111111111111111111111111111111111111112"
+      },
+      "percent": 100
+    }
+  ]
+}
